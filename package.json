@@ -1,0 +1,26 @@
+{
+  "name": "auto-product-demo",
+  "version": "1.0.0",
+  "description": "Generate product demo videos from screenshots using AI and Remotion",
+  "main": "dist/cli.js",
+  "bin": {
+    "auto-product-demo": "dist/cli.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "dev": "tsc && node dist/cli.js"
+  },
+  "keywords": ["video", "demo", "product", "remotion", "ai"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  }
+}
