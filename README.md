@@ -20,7 +20,7 @@ Takes screenshots of your product, analyzes them with Claude, and generates a 20
 ## Installation
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/rfrenoy/auto-product-demo
 cd auto-product-demo
 npm install
 cd src/remotion/template && npm install && cd ../../..
